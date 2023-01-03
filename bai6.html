@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai6</title>
+  </head>
+  <body>
+    <script>
+      let i = 1,
+        flag = true,
+        count = 30,
+        total = 0
+      while (count) {
+        if (i % 7 == 0) {
+          document.write(i + " ")
+          total += i
+          count--
+        }
+        i++
+      }
+      document.write("Tong: " + total)
+    </script>
+  </body>
+</html>
